@@ -10,17 +10,17 @@ async function main() {
     console.log("disconnected")
   }
     
-    // await prisma.user.create({
-    //   data: {
-    //     name: "abc",
-    //     email: 'hello@prisma.com',
-    //     posts: {
-    //       create: {
-    //         title: 'My first post',
-    //       },
-    //     },
-    //   },
-    // })
+    await prisma.user.create({
+      data: {
+        name: "manishtalele",
+        email: 'MT@prisma.com',
+        posts: {
+          create: {
+            title: 'going to hell',
+          },
+        },
+      },
+    })
 
     // await prisma.user.update({
     //   where:{
@@ -33,7 +33,7 @@ async function main() {
 
     // await prisma.user.delete({
     //   where: {
-    //     ids: '62e78979c6edb002f7ef7b0f',
+    //     ids: '62e7e92e6c35438298e861e4',
     //   }
     // })
 
